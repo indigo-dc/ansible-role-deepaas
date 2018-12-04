@@ -1,0 +1,9 @@
+---
+- name: Install prerequisites
+  package:
+    name: "{{ item }}"
+  with_items: "{{ prerequisites }}"
+
+- name: Install deepaas
+  pip:
+    name: deepaas
