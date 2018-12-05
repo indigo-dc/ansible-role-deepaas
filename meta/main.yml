@@ -5,8 +5,8 @@ galaxy_info:
   description: DEEPaaS deployment
   company: DEEP-Hybrid-DataCloud - http://deep-hybrid-datacloud.eu
   license: Apache License 2.0
-  min_ansible_version: 2.1
-  min_ansible_container_version: 2.1
+  min_ansible_version: 2.4
+  min_ansible_container_version: 2.4
   github_branch: master
   platforms:
     - name: Debian
