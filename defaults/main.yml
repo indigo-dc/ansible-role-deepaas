@@ -6,7 +6,6 @@ prerequisites:
     - python-wheel
     - python34-pip
     - python34-setuptools
-    - python34-wheel
   debian:
     - python-pip
     - python-setuptools
