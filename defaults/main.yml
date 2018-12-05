@@ -1,8 +1,16 @@
 ---
 prerequisites:
-  - python-pip
-  - python-setuptools
-  - python-wheel
-  - python3-pip
-  - python3-setuptools
-  - python3-wheel
+  redhat:
+    - python-pip
+    - python-setuptools
+    - python-wheel
+    - python34-pip
+    - python34-setuptools
+    - python34-wheel
+  debian:
+    - python-pip
+    - python-setuptools
+    - python-wheel
+    - python3-pip
+    - python3-setuptools
+    - python3-wheel

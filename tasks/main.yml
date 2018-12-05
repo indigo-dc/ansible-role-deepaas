@@ -2,7 +2,7 @@
 - name: Install prerequisites
   package:
     name: "{{ item }}"
-  with_items: "{{ prerequisites }}"
+  with_items: "{{ prerequisites[(ansible_os_family | lower)] }}"
 
 - name: Install deepaas
   pip:
