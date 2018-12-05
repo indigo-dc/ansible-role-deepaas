@@ -24,4 +24,4 @@ galaxy_info:
     - deep-learning
 
 dependencies:
-  - geerlingguy.repo-epel
+  - { role: geerlingguy.repo-epel, when: (ansible_os_family == 'RedHat') }
