@@ -1,7 +1,7 @@
 DEEPaaS
 =========
 
-[![Build Status](https://api.travis-ci.org/indigo-dc/ansible-role-deepaas.svg?branch=master)](https://travis-ci.org/indigo-dc/ansible-role-deepaas)
+[![Build Status](https://travis-ci.com/indigo-dc/ansible-role-deepaas.svg?branch=master)](https://travis-ci.org/indigo-dc/ansible-role-deepaas)
 
 Ansible role to deploy DEEP as a Service (DEEPaaS) on Linux.
 
