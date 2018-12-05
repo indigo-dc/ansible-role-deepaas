@@ -24,7 +24,7 @@ Example Playbook
 
     - hosts: all
       roles:
-         - { role: ansible-role-deepaas }
+         - { role: indigo-dc.deepaas }
 
 License
 -------
